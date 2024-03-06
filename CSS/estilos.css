@@ -72,14 +72,13 @@
     top: 0;
     width: 100%;
     position: fixed;
-    width:100%;
-    padding-top: 80px;
+
 }
 .row h1{
     text-align:center;
     color: rgb(240, 90, 9);
     font-size: 70px;
-    padding-top: 110px;
+    padding-top: 100px;
     animation-duration: 4s;
     animation-name: slidein;
     font-family:  roboto;
@@ -231,3 +230,24 @@ div.center{
     background-color: #ddd;
     color: black;
   }
+.contenedor{
+    width: 100%;
+    margin: 0px auto;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom: 35.35%;
+    position:relative;
+    height:0;
+    
+}
+.map-responsive iframe{
+    left: 20px;
+    top: 40px;
+    height:80%;
+    width:80%;
+    position:absolute;
+}
+.img-responsive{
+    padding: 0px 0px 0px 40px;
+}
