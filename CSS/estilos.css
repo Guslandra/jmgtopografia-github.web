@@ -24,24 +24,9 @@
         background-image: url(../Imagenes/20190120_124239.jpg) ;
     }
     }
-
-.bg-dark{
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-   
-}
 @media (min-width:768px){
     .bg-dark{background-color: transparent!important;
-    }
-   
-}
-.navbar-brand{
-    color: rgb(240, 137, 12);
-    font-size: 40px;
-    padding: 0px 0px 0px 0px;
-    background: transparent;
-    font-family:  montserrat sans-serif; 
+    }  
 }
 .row h2{
     text-align:center;
@@ -70,25 +55,34 @@
     font-family: monserrat sans-serif;
     padding-top: 10px;
 }
-.container-fluid{
-    background-image: url(../Imagenes/Barra.jpg) ;
+.navbar{
+    background-image: url(../Imagenes/Barra2.png) ;
     background-size:cover;
-    background-position:center;
+    background-position: center;
     background-repeat:no-repeat;	
-    display:flex;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 100px;
+    max-width:100% ;
+    margin: 0 auto;
+    padding: 0px;
+    box-shadow: 0 4px 5px; color: #e5e5e5;
+    left: 0;
+    top: 0;
+    width: 100%;
     position: fixed;
-    width:100%;
-    padding-top: 80px;
+
 }
 .row h1{
     text-align:center;
     color: rgb(240, 90, 9);
-    font-size: 60px;
-    padding-top: 80px;
+    font-size: 70px;
+    padding-top: 110px;
     animation-duration: 4s;
     animation-name: slidein;
-    font-family:  montserrat sans-serif;
+    font-family:  roboto;
+    font-weight: 900;
   }
   
   @keyframes slidein {
@@ -139,7 +133,7 @@ h5{
     background-color: #08080895;
     
 }
-.section-padding{
+.container{
     background-image: url(../Imagenes/Sat1.png);
     background-size: cover;
     background-position:center;
@@ -159,9 +153,7 @@ h6{
     padding: 10px 10px;
     text-align: center;
 }
-.navbar-light{
-    padding: 0px 0px;
-}
+
 .text-center p{
     color: black;
     font-size: 20px;
@@ -204,7 +196,7 @@ p.tex-topo{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(243, 245, 244);
+    background-color: azure;
     color: rgba(0, 0, 0, 0.579);
 }
 p.equi{
@@ -217,21 +209,45 @@ div.center{
     background-color: azure;
 }
 .navg a:hover {
-    color: rgb(246, 110, 14);
+    color: #f66e0e;
   }
  
 #navbar a {
     float: left;
+    margin-right: 20px;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
+    font-family: roboto;
+    
 }
   
 #navbar a:hover {
     background-color: #ddd;
     color: black;
   }
+.contenedor{
+    width: 100%;
+    margin: 0px auto;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom: 35.35%;
+    position:relative;
+    height:0;
+    
+}
+.map-responsive iframe{
+    left: 20px;
+    top: 40px;
+    height:80%;
+    width:80%;
+    position:absolute;
+}
+.img-responsive{
+    padding: 0px 0px 0px 40px;
+}
