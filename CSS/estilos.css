@@ -242,12 +242,9 @@ div.center{
     
 }
 .map-responsive iframe{
-    left: 20px;
-    top: 40px;
+    left: 30px;
+    top: 10px;
     height:80%;
     width:80%;
     position:absolute;
-}
-.img-responsive{
-    padding: 0px 0px 0px 40px;
 }
