@@ -57,6 +57,7 @@
     font-family: monserrat sans-serif;
     padding: 30px 30px;
     margin: 40px 0px 10px;
+    
 }
 .navbar{
     background-image: url(../Imagenes/Barra2.png);
@@ -271,7 +272,7 @@ div.center{
         
     }
     .navbar{
-        width: 760px;
+        width: 740px;
         height: 60px;
         max-width:100%;
     }
@@ -285,11 +286,11 @@ div.center{
           }
     .row p{
         font-size: 15px;
-        padding: 0px 0px;
-        margin:  30px 30px ;  
+        padding: 20px 40px;
+        margin:  30px 20px ;  
     }
     .banner{
-        width: 940;
+        width: 970;
         height:520px;
     }
     .row h3{
@@ -298,5 +299,8 @@ div.center{
     }
     p.tex-topo{
         font-size: 15px;    
+}
+.div.row{
+    width: 950;
 }
 }
