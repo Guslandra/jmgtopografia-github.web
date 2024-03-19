@@ -216,7 +216,7 @@ div.center{
     color: #f66e0e;
   }
  
-#navbar a {
+.link {
     float: left;
     margin-right: 20px;
     display: block;
@@ -233,10 +233,6 @@ div.center{
     background-color: #ddd;
     color: black;
   }
-.contenedor{
-    width: 100%;
-    margin: 0px auto;
-}
 .map-responsive{
     overflow:hidden;
     padding-bottom: 35.35%;
@@ -251,30 +247,20 @@ div.center{
     width:80%;
     position:absolute;
 }
-.toggle{
-    color:white;
-    background: none;
-    border: none;
-    font-size: 30px;
-    padding: 0 20px;
-    line-height: 60px;
-    display: none;
-}
+
 @media (max-width:768px){
     .img-responsive{
-        height: 40px;
-        width: 105px;
-    }
-    #navbar a {
-        font-size: 12px;
-        margin-right: 10px;
-        padding: 0px;
-        
+        height: 30px;
+        width: 85px;
     }
     .navbar{
         width: 740px;
         height: 60px;
-        max-width:100%;
+    }
+    #navbar a{
+        font-size: 12px;
+        margin-right: 10px;
+        
     }
     .row h1{
         font-size: 50px;
@@ -287,20 +273,38 @@ div.center{
     .row p{
         font-size: 15px;
         padding: 20px 40px;
-        margin:  30px 20px ;  
+        margin:  30px 20px ; 
+        width: auto; 
     }
     .banner{
         width: 970;
         height:520px;
     }
+    
+    .row h6{
+        padding: 5px 5px 5px;
+        margin: 0px 0px 0px;
+        font-size: 25px; 
+    }
     .row h3{
-        padding: 15px 6px 5px;
+        padding: 5px 5px 5px;
+        margin: 0px 0px 0px;
         font-size: 28px;
+    }
+    p.margen{
+        padding: 5px 5px 5px;
+        margin: 0px 0px 0px;
+        font-size: 15px;
     }
     p.tex-topo{
         font-size: 15px;    
-}
-.div.row{
-    width: 950;
-}
+    }
+    .div.row{
+       width: 950;
+    }
+    .map-responsive{
+        width: auto;
+        height: 360px;
+    }
+ 
 }
