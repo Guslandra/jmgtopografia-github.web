@@ -1,9 +1,9 @@
-*{
+.body{
  margin: 0; 
  box-sizing: border-box;
 }
 .banner{
-    width: 90%;
+    width: 100%;
     height: 700px;
     animation: banner 10s infinite linear alternate;
     background-size:cover;
