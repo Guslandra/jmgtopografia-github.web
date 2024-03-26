@@ -3,7 +3,7 @@
  box-sizing: border-box;
 }
 .banner{
-    width: 100%;
+    width: 90%;
     height: 700px;
     animation: banner 10s infinite linear alternate;
     background-size:cover;
