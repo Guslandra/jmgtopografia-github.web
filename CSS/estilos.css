@@ -297,7 +297,7 @@ div.center{
         height: calc(100%-60px);
         overflow-y: auto;
         left: 100%;
-        transition: 0-3s;
+        transition: left 0-3s;
     }
     .nav-menu-item{
         line-height: 70px;
@@ -312,7 +312,6 @@ div.center{
     }
     .nav-menu_visible{
         left: 0;
-
     }    
     .row h1{
         font-size: 50px;
