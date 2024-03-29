@@ -322,7 +322,8 @@ div.center{
     
     }
     .nav-menu-item{
-        line-height: 10px;
+        line-height: 20px;
+        font-size: 13px;
     }
     .nav-menu-link:hover,
     .nav-menu-link_active{
