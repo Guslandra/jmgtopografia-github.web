@@ -1,6 +1,8 @@
 *{
  margin: 0; 
+ padding: 0;
  box-sizing: border-box;
+ 
 }
 .banner{
     width: 100%;
@@ -57,6 +59,7 @@
     font-family: monserrat sans-serif;
     padding: 30px 30px;
     margin: 40px 0px 10px;
+    background: #404e4095;
     
 }
 .header{
@@ -74,30 +77,36 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    max-width: 992px;
-    margin: 0 auto ;
+    height: 80px;
+    width: 100%;
 
 }
 .nav-link{
     color: white;
     text-decoration: none;
+    margin: 10px 0 ;
+   
 }
 .img{
     height: 75px;
-    width: 120px;
-    padding-top: 15px ;
+    width: 125px;
+    padding-top: 10px ;
+    margin-left: 60px;
 }
 .nav-menu{
     display: flex;
-    margin-right: 40px;
+    margin-right: 60px;
     list-style: none;
+    
+   
 }
 .nav-menu-item{
     font-size: 18px;
-    margin: 0 10px;
-    line-height: 60px;
+    line-height: 25px;
     text-transform: uppercase;
     width: max-content;
+    padding-bottom: 10px;
+    
     
 }
 
@@ -235,9 +244,12 @@ p.equi{
 div.center{
     background-color: azure;
 }
-.nav-menu-link{
-    padding: 8px 12px;
-    border-radius: 3px;
+.nav-menu-link nav.link{
+    padding: 0px 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 20px;
+    
 }
 .nav-menu-link:hover,
 .nav-menu-link_active{
@@ -252,6 +264,7 @@ div.center{
     padding: 0 20px;
     line-height: 60px;
     display: none;
+    cursor: pointer;
 }
 .map-responsive{
     overflow:hidden;
@@ -267,10 +280,13 @@ div.center{
     width:80%;
     position:absolute;
 }
+#check{
+    display: none;
+}
 
 @media (max-width:768px){
     body{
-        padding-top: 70px;
+        padding-top: 60px;
     }
     .img-responsive{
         height: 30px;
@@ -281,8 +297,13 @@ div.center{
     }
     .img{
         height: 50px ;
-        width: 100px ;
-        padding: 3 10px;
+        width: 110px ;
+        padding: 3 8px;
+        margin-left: 30px;
+        
+    }
+    .nav{
+        height: 60px;
     }
     .nav-menu{
         flex-direction: column;
@@ -297,7 +318,7 @@ div.center{
         height: calc(100%-60px);
         overflow-y: auto;
         left: 100%;
-        transition: left 0-3s;
+        transition: left 0.7s;
     }
     .nav-menu-item{
         line-height: 70px;
@@ -310,9 +331,7 @@ div.center{
     .nav-toggle{
         display: block;
     }
-    .nav-menu_visible{
-        left: 0;
-    }    
+   
     .row h1{
         font-size: 50px;
         padding-top: 80px; 
@@ -356,6 +375,12 @@ div.center{
     .map-responsive{
         width: auto;
         height: 360px;
+    }
+    #check:checked ~ .nav-menu{
+        left: 0;
+    }
+    #check{
+        display: none;
     }
  
 }
