@@ -34,7 +34,7 @@
     }
 .row h2{
     text-align:center;
-    color: rgb(245, 245, 245);
+    color: white;
     font-size: 35px;
     padding-top: 10px;
     animation-duration: 6s;
@@ -59,7 +59,6 @@
     font-family: monserrat sans-serif;
     padding: 30px 30px;
     margin: 40px 0px 10px;
-    background: #404e4095;
     
 }
 .header{
@@ -306,22 +305,24 @@ div.center{
         height: 60px;
     }
     .nav-menu{
-        flex-direction: column;
-        margin-right: 10px;
+        flex-direction: row;
+        margin-right: 0px;
+        margin-left: 30px;
         background-color: #2c3e50;
         position:fixed;
-        left: 0;
+        right: 0;
         top: 60px;
         width: 100%;
-        padding: 20px 0;
+        padding: 10px 0;
         align-items: center;
         height: calc(100%-60px);
         overflow-y: auto;
-        left: 100%;
-        transition: left 0.7s;
+        right: 100%;
+        transition: right 0.7s;
+    
     }
     .nav-menu-item{
-        line-height: 70px;
+        line-height: 20px;
     }
     .nav-menu-link:hover,
     .nav-menu-link_active{
@@ -330,6 +331,7 @@ div.center{
     }
     .nav-toggle{
         display: block;
+        margin-right: 25px;
     }
    
     .row h1{
@@ -377,10 +379,17 @@ div.center{
         height: 360px;
     }
     #check:checked ~ .nav-menu{
-        left: 0;
+        right: 0;
     }
     #check{
         display: none;
     }
- 
+    .row h1{
+        font-size: 45px;
+        padding-top: 100px;
+        animation-duration: 4s;
+        animation-name: slidein;
+        font-family:  roboto;
+        margin-left: 15px;
+}
 }
