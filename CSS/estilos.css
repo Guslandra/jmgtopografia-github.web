@@ -91,7 +91,10 @@
 .nav-link{
     color: white;
     text-decoration: none;
-    margin: 10px 0 ;
+    margin: 20px 10px ;
+    font-size: 18px;
+    font-family: roboto;
+    text-align: center;
    
 }
 .img{
@@ -103,18 +106,14 @@
 .nav-menu{
     display: flex;
     margin-right: 60px;
-    list-style: none;
-    
-   
+    list-style: none; 
+    padding: 0 0 0;
 }
 .nav-menu-item{
-    font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
     width: max-content;
     padding-bottom: 10px;
-    
-    
 }
 
 .row h1{
@@ -251,13 +250,8 @@ p.equi{
 div.center{
     background-color: azure;
 }
-.nav-menu-link nav.link{
-    padding: 0px 12px;
-    border-radius: 5px;
-    margin-top: 10px;
-    padding-top: 20px;
-    
-}
+
+
 .nav-menu-link:hover,
 .nav-menu-link_active{
     background-color: rgb(80, 144, 190);
@@ -316,25 +310,30 @@ div.center{
     .nav-menu{
         flex-direction: row;
         margin-right: 0px;
-        margin-left: 30px;
+        margin-left: 10px;
         background-color: white;
         position:fixed;
         right: 0;
         top: 60px;
         width: 100%;
-        padding: 0 5px 25px 0px;
+        padding: 0 5px 0px 0px;
         align-items: center;
         height: calc(100%-70px);
         overflow-y: auto;
         right: 100%;
         transition: right 0.7s;
+        
     
     }
     .nav-link{
         color: black;
+        margin: 20px 0;
+        padding: 10px 7px ;
     }
     .nav-menu-item{
-        line-height: 20px;
+        line-height: 10px;
+        padding: 0 0 ;
+
     }
     .nav-menu-link:hover,
     .nav-menu-link_active{
