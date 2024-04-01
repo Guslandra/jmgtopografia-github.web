@@ -349,8 +349,9 @@ div.center{
     }
    
     .row h1{
-        font-size: 50px;
-        padding-top: 80px; 
+        font-size: 45px;
+        padding-top: 60px !important; 
+
     }
     .row h2{
         font-size: 30px;
