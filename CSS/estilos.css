@@ -323,9 +323,11 @@ div.center{
         overflow-y: auto;
         right: 100%;
         transition: right 0.7s;
-        
-    
     }
+    .caja{
+        padding:0px 40px 10px 20px !important;
+        margin: 0px 25px 0px 25px !important ;
+        }
     .nav-link{
         color: black;
         margin: 20px 0;
