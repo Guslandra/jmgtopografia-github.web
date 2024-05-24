@@ -2,12 +2,11 @@
  margin: 0; 
  padding: 0;
  box-sizing: border-box;
- 
 }
 .banner{
     width: 100%;
-    height: 700px;
-    animation: banner 10s infinite linear alternate;
+    height: 600px;
+    animation: banner 5s infinite linear alternate;
     background-size: cover;
     background-position:center;
     background-repeat:no-repeat;	
@@ -17,18 +16,32 @@
     border: none;
     margin: 0px 0px 0px;
     padding: 0px 0px 0px;
+    text-align: justify;
 }
 .row{
     width: 100%;
+    overflow: hidden;
+
 }
-.caja,
+.caja{
+    padding: 15px 30px 20px 30px;
+    margin: 30px 40px 180px 20px ; 
+    border-color: #F98200;
+    border-style: solid;
+    border-width: 3px;
+    background:#ddd6fc;
+    opacity: 0.75;
+    
+}
 .cajaTopo{
-    padding: 15px 55px 20px 15px;
-        margin: 30px 40px 25px ; 
-        border:3px solid #F98200;
-        background:#220b8c;
-        opacity: 0.65;
-        line-height:26px !important;
+    padding: 15px 30px 20px 0px;
+    margin: 30px 40px 100px 20px ; 
+    border-color: #F98200;
+    border-style: solid;
+    border-width: 3px;
+    background:#ddd6fc;
+    opacity: 0.75;
+
 }
 
 
@@ -48,12 +61,10 @@
     }
 .row h2{
     text-align:center;
-    color: white;
+    color: black;
     font-size: 35px;
     padding-top: 15px;
     padding-left: 50px;
-    animation-duration: 6s;
-    animation-name: slidein;
     font-family:  montserrat sans-serif;
       }
       
@@ -69,12 +80,16 @@
         }
       }
 .row p{
-    color: white;
+    color: black;
     font-size: 22px;
-    font-family: monserrat sans-serif;
-    
-    
-    
+    font-family: monserrat sans-serif; 
+}
+
+section[id]{
+    scroll-margin-top: 80px;
+}
+html{
+    scroll-behavior: smooth;
 }
 .header{
     background-image: url(../Imagenes/Barra2.png);
@@ -128,10 +143,10 @@
     color: rgb(240, 90, 9);
     font-size: 70px;
     padding-top: 100px;
-    animation-duration: 4s;
-    animation-name: slidein;
     font-family:  roboto;
     font-weight: 900;
+    animation-duration: 10s;
+    animation-name: slidein;
   }
   
   @keyframes slidein {
@@ -190,6 +205,9 @@ h5{
     display: block;
     justify-content: center;
     align-items: top;
+    margin: 20px 10px 0px 100px;
+    padding: 0px 0px 0px;
+
 }
 .zoom:hover{
     transform:scale(1.5);
@@ -256,6 +274,7 @@ p.equi{
 }
 div.center{
     background-color: azure;
+    margin: 20px 10px 0px 60px;
 }
 
 
@@ -279,6 +298,7 @@ div.center{
     padding-bottom: 35.35%;
     position:relative;
     height:0;
+    margin: 30px 10px 0px 100px;
     
 }
 .map-responsive iframe{
@@ -300,6 +320,10 @@ div.center{
         height: 30px;
         width: 85px;
     }
+    .row{
+        width: 100%;
+        overflow: hidden;
+    }    
     .header{
         height: 60px;
     }
@@ -330,10 +354,11 @@ div.center{
         right: 100%;
         transition: right 0.7s;
     }
-    .caja,
+    .p.caja,
     .cajaTopo{
-        padding:0px 40px 10px 20px !important;
-        margin: 0px 25px 0px 25px !important ;
+        padding:0px 40px 10px 20px;
+        margin: 0px 0px 0px 20px;
+       
         }
     .nav-link{
         color: black;
@@ -361,8 +386,8 @@ div.center{
           }
     .row p{
         font-size: 17px;
-        padding: 0px 40px;
-        margin:  30px 20px ; 
+        padding: 0px 0px;
+        margin:  20px 20px ; 
         width: auto; 
     }
     .banner{
@@ -379,6 +404,7 @@ div.center{
         padding: 5px 5px 5px;
         margin: 0px 0px 0px;
         font-size: 28px;
+    
     }
     p.margen{
         padding: 5px 5px 5px;
@@ -406,5 +432,19 @@ div.center{
         animation-name: slidein;
         font-family:  roboto;
         margin-left: 15px;
+    }
+    section[id]{
+        scroll-margin-top: 120px;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        margin: 40px 10px 0px 15px;
+        padding: 0px 0px 0px;
+    }
+    .banner{
+        width: 100%;
+        height: 400px;
     }
 }
