@@ -87,6 +87,8 @@
 
 section[id]{
     scroll-margin-top: 80px;
+    
+
 }
 html{
     scroll-behavior: smooth;
@@ -197,7 +199,7 @@ h5{
     background-color: #08080895;
     
 }
-.container{
+.nav-item{
     background-image: url(../Imagenes/Sat1.png);
     background-size: cover;
     background-position:center;
@@ -205,7 +207,7 @@ h5{
     display: block;
     justify-content: center;
     align-items: top;
-    margin: 20px 10px 0px 100px;
+    margin: 10px 10px 10px 10px;
     padding: 0px 0px 0px;
 
 }
@@ -274,7 +276,7 @@ p.equi{
 }
 div.center{
     background-color: azure;
-    margin: 20px 10px 0px 60px;
+    margin: 20px 10px 20px 10px;
 }
 
 
@@ -298,8 +300,7 @@ div.center{
     padding-bottom: 35.35%;
     position:relative;
     height:0;
-    margin: 30px 10px 0px 100px;
-    
+    margin: 30px 10px 0px 150px;
 }
 .map-responsive iframe{
     left: 30px;
@@ -354,12 +355,13 @@ div.center{
         right: 100%;
         transition: right 0.7s;
     }
+    
     .p.caja,
     .cajaTopo{
         padding:0px 40px 10px 20px;
         margin: 0px 0px 0px 20px;
-       
-        }
+    }
+    
     .nav-link{
         color: black;
         margin: 20px 0;
@@ -403,7 +405,7 @@ div.center{
     .row h3{
         padding: 5px 5px 5px;
         margin: 0px 0px 0px;
-        font-size: 28px;
+        font-size: 25px;
     
     }
     p.margen{
@@ -418,6 +420,7 @@ div.center{
     .map-responsive{
         width: auto;
         height: 360px;
+        margin: 30px 10px 0px 20px;
     }
     #check:checked ~ .nav-menu{
         right: 0;
@@ -434,14 +437,11 @@ div.center{
         margin-left: 15px;
     }
     section[id]{
-        scroll-margin-top: 120px;
+        scroll-margin-top: 130px;
+    
     }
     html{
         scroll-behavior: smooth;
-    }
-    .container{
-        margin: 40px 10px 0px 15px;
-        padding: 0px 0px 0px;
     }
     .banner{
         width: 100%;
