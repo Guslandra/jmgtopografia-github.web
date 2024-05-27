@@ -195,7 +195,8 @@ h5{
     color: #fbfbfc;
     font-size: 12px;
     font-family:  montserrat sans-serif;
-    padding: 7px 7px; 
+    padding: 7px 7px;
+    margin: 0px 0px 10px 22px;
     background-color: #08080895;
     
 }
@@ -275,8 +276,9 @@ p.equi{
     padding-top: 10px;
 }
 div.center{
-    background-color: azure;
-    margin: 20px 10px 20px 10px;
+    background-color: rgb(206, 207, 220);
+    margin: 20px 10px 20px 25px;
+    padding: 0px 0px 0px 0px;
 }
 
 
@@ -312,7 +314,6 @@ div.center{
 #check{
     display: none;
 }
-
 @media (max-width:768px){
     body{
         padding-top: 60px;
