@@ -65,7 +65,7 @@
     font-size: 35px;
     padding-top: 15px;
     padding-left: 50px;
-    font-family:  montserrat sans-serif;
+    font-family:  Poppins;
       }
       
       @keyframes slidein {
@@ -82,7 +82,7 @@
 .row p{
     color: black;
     font-size: 22px;
-    font-family: monserrat sans-serif; 
+    font-family: Poppins; 
 }
 
 section[id]{
@@ -113,11 +113,11 @@ html{
 
 }
 .nav-link{
-    color: black;
+    color:white;
     text-decoration: none;
     margin: 20px 10px ;
-    font-size: 18px;
-    font-family: roboto;
+    font-size: 22px;
+    font-family: Poppins;
     text-align: center;
    
 }
@@ -145,7 +145,7 @@ html{
     color: rgb(240, 90, 9);
     font-size: 70px;
     padding-top: 100px;
-    font-family:  roboto;
+    font-family:  Poppins;
     font-weight: 900;
     animation-duration: 10s;
     animation-name: slidein;
@@ -174,19 +174,19 @@ html{
     text-align: center;
     padding: 30px 12px 10px;
     font-size: 36px;
-    font-family:  montserrat sans-serif;
+    font-family:  Poppins;
 }
 .row h4{
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 22px;
-    font-family:  montserrat sans-serif;
+    font-family:  Poppins;
     padding-top: 15px;
 }
 p.margen{
     color: #080808;
     font-size: 17px;
-    font-family: roboto;
+    font-family: Poppins;
     text-align: center;
     padding: 5px 5px;
     margin: 0px 0px 0px;
@@ -194,7 +194,7 @@ p.margen{
 h5{
     color: #fbfbfc;
     font-size: 12px;
-    font-family:  montserrat sans-serif;
+    font-family:  Poppins;
     padding: 7px 7px;
     margin: 0px 0px 10px 22px;
     background-color: #08080895;
@@ -219,7 +219,7 @@ h5{
 h6{
     color: black;
     font-size: 27px;
-    font-family:  montserrat sans-serif;
+    font-family:  Poppins;
     padding: 10px 10px;
     text-align: center;
 }
@@ -227,7 +227,7 @@ h6{
 .text-center p{
     color: black;
     font-size: 20px;
-    font-family: montserrat sans-serif ;
+    font-family: Poppins ;
 }
 h4.color6 {
     font-size: 20px;
@@ -272,7 +272,7 @@ p.tex-topo{
 p.equi{
     color: rgba(0, 0, 0, 0.579);
     font-size: 17px;
-    font-family: monserrat sans-serif;
+    font-family: Poppins;
     padding-top: 10px;
 }
 div.center{
@@ -284,7 +284,8 @@ div.center{
 
 .nav-menu-link:hover,
 .nav-menu-link_active{
-    background-color: rgb(80, 144, 190);
+    background-color: rgb(9, 9, 240);
+    color: white;
     transition: 0.5s;
 }
 .nav-toggle{
