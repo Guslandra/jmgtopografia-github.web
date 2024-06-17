@@ -21,9 +21,15 @@
 .row{
     width: 100%;
     overflow: hidden;
-
 }
-
+.titulo{
+    text-align:center;
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 50px;
+    font-family:  Poppins;
+}
 
 @keyframes banner {
     0%, 20% {
@@ -101,22 +107,12 @@ html{
     text-align: center;
    
 }
-.nav-bar{
-    color:white;
-    text-decoration: none;
-    margin: 28px 10px ;
-    padding: 8px 16px;
-    font-size: 22px;
-    font-family: Poppins;
-    text-align: center;
-}
 .img{
     height: 75px;
     width: 125px;
     padding-top: 10px ;
     margin-left: 60px;
 }
-.nav-bar,
 .nav-menu{
     display: flex;
     margin-right: 20px;
@@ -277,13 +273,7 @@ div.center{
 
 .nav-menu-link:hover,
 .nav-menu-link_active{
-    background-color: rgb(9, 9, 240);
-    color: white;
-    transition: 0.5s;
-}
-.nav-bar:hover,
-.nav-bar_active{
-    background-color: rgb(255, 213, 0);
+    background-color: white;
     color: black;
     transition: 0.5s;
 }
@@ -333,22 +323,21 @@ div.center{
         height: 50px ;
         width: 110px ;
         padding: 3 8px;
-        margin-left: 30px;
+        margin-left: 10px;
         
     }
     .nav{
         height: 50px;
         position: fixed;
+        justify-content: flex-start;
     }
     .nav-menu{
         flex-direction: column;
         margin-right: 0px;
         margin-left: 10px;
         background-color: rgba(173, 168, 168, 0.954);
-        background-position:center;
-        background-repeat:no-repeat;
         position:fixed;
-        right: 0;
+        right: 0; 
         top: 60px;
         width: 35%;
         padding: 0 5px 0px 0px;
@@ -358,7 +347,6 @@ div.center{
         right: 100%;
         transition: right 0.7s;
     }
-    .nav-bar, 
     .nav-link{
         color: black;
         margin: 20px 0;
@@ -376,7 +364,6 @@ div.center{
     }
     .nav-toggle{
         display: block;
-        margin-right: 25px;
     }
     
     .row h2{
@@ -443,5 +430,10 @@ div.center{
     .banner{
         width: 100%;
         height: 400px;
+    }
+    .titulo{
+            font-size: 10px;
+            padding: 0 0;
+            margin:  10px 10px;
     }
 }
