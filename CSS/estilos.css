@@ -302,7 +302,7 @@ div.center{
 #check{
     display: none;
 }
-@media (max-width:740px){
+@media (max-width:768px){
     body{
         padding-top: 60px;
     }
