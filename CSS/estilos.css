@@ -102,7 +102,7 @@ html{
 .img{
     height: 75px;
     width: 125px;
-    padding-top: 10px ;
+    padding-top: 10px;
     margin-left: 70px;
 }
 .img1{
@@ -156,6 +156,52 @@ html{
 .nav-item h1{
     text-align: center;
 }
+.nos{
+    background-image: url(../Imagenes/Sat1.png);
+    margin: 15px;
+}
+.nos h3{
+    color: black;
+    text-align: center;
+    padding: 28px 12px 10px;
+    font-size: 28px;
+    font-family:  Poppins;
+    margin-top: 80px;
+}
+.nos1 h3{
+    color: black;
+    text-align: justify;
+    padding: 28px 40px 10px;
+    font-size: 25px;
+    font-family:  Poppins;
+    margin-top: 10px;
+}
+.text-center p.val{
+    color: black;
+    text-align: left;
+    padding: 0px 40px 0px 10px;
+    font-size: 20px;
+    font-family:  Poppins;
+    margin: 0px;
+   
+}
+.text-center b.fuen1{
+    color: black;
+    text-align: left;
+    padding: 0px 40px 0px 50px;
+    font-size: 18px;
+    font-family:  Poppins;
+    font-weight: 600;
+    margin: 0;
+}
+.text-center p.fuen{
+    color: black;
+    text-align: left;
+    padding: 0px 40px 0px 50px;
+    font-size: 18px;
+    font-family:  Poppins;
+    margin: 0;
+}
 .row h3{
     color: black;
     text-align: center;
@@ -183,7 +229,7 @@ h5{
     font-size: 12px;
     font-family:  Poppins;
     padding: 7px 7px;
-    margin: 0px 0px 10px 22px;
+    margin: 20px 0px 10px 22px;
     background-color: #08080895;
     
 }
@@ -293,7 +339,7 @@ div.center{
     margin: 30px 10px 0px 150px;
 }
 .map-responsive iframe{
-    left: 30px;
+    left: 15px;
     top: 10px;
     height:80%;
     width:80%;
@@ -435,4 +481,46 @@ div.center{
         padding-top: 0px ;
         margin: 7px 60px 0px 0px;
         }
-    }
+        .nos h3{
+            color: black;
+            text-align: center;
+            padding: 20px 12px 10px;
+            font-size: 20px;
+            font-family:  Poppins;
+            margin-top: 10px;
+        }
+        .nos1 h3{
+            color: black;
+            text-align: justify;
+            padding: 28px 40px 10px;
+            font-size: 20px;
+            font-family:  Poppins;
+            margin-top: 10px;
+        }
+        .text-center p.val{
+            color: black;
+            text-align: left;
+            padding: 0px 40px 0px 10px;
+            font-size: 15px;
+            font-family:  Poppins;
+            margin: 0px;
+           
+        }
+        .text-center b.fuen1{
+            color: black;
+            text-align: justify;
+            padding: 0px 20px 0px 0px;
+            font-size: 15px;
+            font-family:  Poppins;
+            font-weight: 600;
+            margin: 0;
+        }
+        .text-center p.fuen{
+            color: black;
+            text-align: left;
+            padding: 0px 0px 0px 0px;
+            font-size: 15px;
+            font-family:  Poppins;
+            margin: 0;
+        }
+}
